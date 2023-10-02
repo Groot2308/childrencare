@@ -16,6 +16,14 @@
         <servlet-name>sevices</servlet-name>
         <servlet-class>Controller.sevices</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>sevicesList</servlet-name>
+        <servlet-class>Controller.sevicesList</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>sevicesDetail</servlet-name>
+        <servlet-class>Controller.sevicesDetail</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>manageUser</servlet-name>
         <url-pattern>/manageUser</url-pattern>
@@ -31,6 +39,14 @@
     <servlet-mapping>
         <servlet-name>sevices</servlet-name>
         <url-pattern>/sevices</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sevicesList</servlet-name>
+        <url-pattern>/sevicesList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>sevicesDetail</servlet-name>
+        <url-pattern>/sevicesDetail</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
