@@ -90,5 +90,25 @@ public class ServicesDAO extends DBContext {
         }
         return null;
     }
+    
+    public ArrayList<Service> searchService(String search){
+        ArrayList<Service> list = new ArrayList<>(); 
+        try{
+            String sql = "SELECT * FROM [Service] s inner join "
+                    + " ServiceCategory c on s.categoryId = c.id where s.title like ? order by s.id desc "; 
+            PreparedStatement ps = connection.prepareStatement(sql); 
+            ps.setString(1,"%" + search + "%");
+            ResultSet rs = ps.executeQuery(); 
+            while(rs.next()){
+                list.add(new Service(rs.getInt(1), new ServiceCategory(rs.getInt(12), rs.getString(13)), rs.getString(3), rs.getString(4), rs.getFloat(5), 
+                        rs.getFloat(6), rs.getString(7), rs.getString(8), rs.getInt(9), rs.getDate(10), rs.getDate(11))); 
+            }
+                          
+        }catch(SQLException e){
+            
+        }
+        return list; 
+        
+    }
 
 }

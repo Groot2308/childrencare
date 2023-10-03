@@ -24,6 +24,10 @@
         <servlet-name>sevicesDetail</servlet-name>
         <servlet-class>Controller.sevicesDetail</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>searchService</servlet-name>
+        <servlet-class>Controller.searchService</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>manageUser</servlet-name>
         <url-pattern>/manageUser</url-pattern>
@@ -47,6 +51,10 @@
     <servlet-mapping>
         <servlet-name>sevicesDetail</servlet-name>
         <url-pattern>/sevicesDetail</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>searchService</servlet-name>
+        <url-pattern>/searchService</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

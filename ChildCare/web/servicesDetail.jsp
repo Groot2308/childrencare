@@ -131,10 +131,24 @@
                                                                color: white;
                                                                border-radius: 9px;" href="#">Price: 20$</a></li>
                                                     </ul>
-                                                    <p>You can browse different tags such as <a rel="nofollow" href="https://templatemo.com/tag/multi-page" target="_parent">multi-page</a>, <a rel="nofollow" href="https://templatemo.com/tag/resume" target="_parent">resume</a>, <a rel="nofollow" href="https://templatemo.com/tag/video" target="_parent">video</a>, etc. to see more CSS templates. Sed hendrerit rutrum arcu, non malesuada nisi. Sed id facilisis turpis. Donec justo elit, dapibus vel ultricies in, molestie sit amet risus. In nunc augue, rhoncus sed libero et, tincidunt tempor nisl. Donec egestas, quam eu rutrum ultrices, sapien ante posuere nisl, ac eleifend eros orci vel ante. Pellentesque vitae eleifend velit. Etiam blandit felis sollicitudin vestibulum feugiat.
-                                                        <br><br>Donec tincidunt leo nec magna gravida varius. Suspendisse felis orci, egestas ac sodales quis, venenatis et neque. Vivamus facilisis dignissim arcu et blandit. Maecenas finibus dui non pulvinar lacinia. Ut lacinia finibus lorem vel porttitor. Suspendisse et metus nec libero ultrices varius eget in risus. Cras id nibh at erat pulvinar malesuada et non ipsum. Suspendisse id ipsum leo.</p>
+                                                    <p>${media.getService().getDecription()}</p>
+                                                    <a style="
+                                                       height: 100%;
+                                                       width: 156px;
+                                                       border-radius: 24px;
+                                                       border: none;
+                                                       color: #fff;
+                                                       font-size: 18px;
+                                                       font-weight: 500;
+                                                       letter-spacing: 1px;
+                                                       background: lightpink;
+                                                       text-align: center;
+                                                       padding: 10px;
+                                                       " href="#" >Booking</a>
                                                 </div>
+
                                             </div>
+
                                         </div>
                                         <div class="col-lg-12">
                                             <div class="sidebar-item comments">
