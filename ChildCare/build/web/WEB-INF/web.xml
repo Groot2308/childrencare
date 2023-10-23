@@ -28,6 +28,14 @@
         <servlet-name>searchService</servlet-name>
         <servlet-class>Controller.searchService</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ReservationList</servlet-name>
+        <servlet-class>Controller.ReservationList</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ReservationDetail</servlet-name>
+        <servlet-class>Controller.ReservationDetail</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>manageUser</servlet-name>
         <url-pattern>/manageUser</url-pattern>
@@ -55,6 +63,14 @@
     <servlet-mapping>
         <servlet-name>searchService</servlet-name>
         <url-pattern>/searchService</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ReservationList</servlet-name>
+        <url-pattern>/ReservationList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ReservationDetail</servlet-name>
+        <url-pattern>/ReservationDetail</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
