@@ -5,6 +5,7 @@
 package Controller;
 
 import DAO.ServicesDAO;
+import Model.Feedback;
 import Model.ServiceCategory;
 import Model.ServiceMedia;
 import java.io.IOException;
@@ -29,8 +30,12 @@ public class sevicesDetail extends HttpServlet {
         int sid = Integer.parseInt(id);
         ServiceMedia media = dao.getServiceById(sid);
         ArrayList<ServiceCategory> category = dao.getServiceCate();
+        ArrayList<Feedback> feedback = dao.getFeedback(sid);
+        int count = dao.getNumberFeedback(sid); 
         request.setAttribute("category", category);
+        request.setAttribute("feedback", feedback);
         request.setAttribute("media", media);
+          request.setAttribute("count", count);
         request.getRequestDispatcher("servicesDetail.jsp").forward(request, response);
     }
 
