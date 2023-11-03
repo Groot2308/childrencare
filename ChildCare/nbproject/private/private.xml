@@ -14,18 +14,21 @@
             <file>file:/D:/Support/childrencare/ChildCare/web/reservationDetail.jsp</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/js/script.js</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Controller/searchService.java</file>
+            <file>file:/D:/Support/childrencare/ChildCare/web/WEB-INF/web.xml</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/DAO/ReservationDAO.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Controller/searchAccount.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/js/jquery-3.4.1.min.js</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/index.jsp</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/services/assets/css/fontawesome.css</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/contact.jsp</file>
+            <file>file:/D:/Support/childrencare/ChildCare/web/doctorDetail.jsp</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/services/assets/css/templatemo-stand-blog.css</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/servicesList.jsp</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/services/css/templatemo-topic-listing.css</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Controller/sevicesList.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Model/Post.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/servicesDetail.jsp</file>
+            <file>file:/D:/Support/childrencare/ChildCare/src/java/Controller/DoctorList.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/manageUser.jsp</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Model/Media.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Model/Notification.java</file>
@@ -34,6 +37,7 @@
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Controller/sevicesDetail.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/images/avatar1.jpg</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/services/js/custom.js</file>
+            <file>file:/D:/Support/childrencare/ChildCare/src/java/Controller/doctorDetail.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/services/js/jquery.min.js</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Controller/LoginController.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Controller/sevices.java</file>
@@ -46,6 +50,7 @@
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Model/Account.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/testimonial.jsp</file>
             <file>file:/D:/Support/childrencare/ChildCare/web/js/bootstrap.js</file>
+            <file>file:/D:/Support/childrencare/ChildCare/web/images/team3.jpg</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/DBContext/DBContext.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Controller/ReservationList.java</file>
             <file>file:/D:/Support/childrencare/ChildCare/src/java/Controller/manageUser.java</file>

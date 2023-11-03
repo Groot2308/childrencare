@@ -36,6 +36,14 @@
         <servlet-name>ReservationDetail</servlet-name>
         <servlet-class>Controller.ReservationDetail</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DoctorList</servlet-name>
+        <servlet-class>Controller.DoctorList</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>doctorDetail</servlet-name>
+        <servlet-class>Controller.doctorDetail</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>manageUser</servlet-name>
         <url-pattern>/manageUser</url-pattern>
@@ -71,6 +79,14 @@
     <servlet-mapping>
         <servlet-name>ReservationDetail</servlet-name>
         <url-pattern>/ReservationDetail</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DoctorList</servlet-name>
+        <url-pattern>/DoctorList</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>doctorDetail</servlet-name>
+        <url-pattern>/doctorDetail</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
