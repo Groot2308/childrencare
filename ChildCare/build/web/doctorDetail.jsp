@@ -145,7 +145,7 @@
                 </div>
 
                 <div class="item">
-                    <div class="box">
+                    <div class="box" style="background: #00c6a9;">
                         <div class="img-box">
                             <img src="${acc.getAvatar()}" alt="" />
                         </div>
