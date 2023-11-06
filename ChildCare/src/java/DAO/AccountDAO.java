@@ -50,10 +50,10 @@ public class AccountDAO extends DBContext {
     public ArrayList<Account> getAccount(int index) {
         ArrayList<Account> list = new ArrayList<>();
         try {
-            String sql = "SELECT * FROM [Account] order by fullName, email\n"
+            String sql = "SELECT * FROM [Account] order by id desc\n"
                     + "OFFSET ? ROWS FETCH NEXT 9 ROWS ONLY";
             PreparedStatement ps = connection.prepareStatement(sql);
-            ps.setInt(1, (index - 1) * 6);
+            ps.setInt(1, (index - 1) * 9);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 list.add(new Account(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6), rs.getString(7),
